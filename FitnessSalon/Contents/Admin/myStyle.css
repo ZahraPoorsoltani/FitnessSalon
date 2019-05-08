@@ -1,0 +1,81 @@
+﻿body {
+    text-align:right;
+}
+.header-area,.page-title-area,.sidebar-menu{
+    direction:rtl;
+}
+.sidebar-menu{
+    right:0;
+    left:auto;
+}
+.page-container{
+        padding-right: 280px;
+        padding-left:0;
+}
+.page-title-area:before{
+    left:auto;
+    right:0;
+}
+.metismenu li a span{
+    margin-right:10px;
+    margin-left:auto;
+}
+.metismenu li a:after{
+        left: 15px;
+        right:auto;
+}
+
+.user-profile{
+    margin-left:-30px;
+    margin-right:auto;
+}
+.user-profile img.avatar{
+    margin-right: auto;
+    margin-left: 12px;
+}
+.nav-btn{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+.sbar_collapsed .sidebar-menu{
+    right: -280px;
+}
+.sbar_collapsed.page-container{
+    padding-right:0;
+    padding-left:0;
+}
+.page-title
+{
+    margin-right: auto;
+    margin-left: 30px;
+}
+.breadcrumbs li a:before{
+        left: -13px;
+        right:auto;
+        content:"\\";
+}
+.breadcrumbs li a, .breadcrumbs li span{
+    margin-left: 16px;
+    margin-right:auto;
+}
+@media (max-width: 1199px) and (min-width: 992px)
+{
+.sidebar-menu {
+        position: fixed;
+        right: -90%;
+        top: 0;
+        height: 100vh;
+        width: 365px;
+    }
+.sbar_collapsed .sidebar-menu{
+    right:0;
+    left:auto;
+}
+.sbar_collapsed .nav-btn{
+       right: 306px;
+       left:auto;
+}
+.page-container, .sbar_collapsed.page-container{
+    padding-right:0;
+}
+}
